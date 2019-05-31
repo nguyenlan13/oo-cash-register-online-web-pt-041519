@@ -21,7 +21,8 @@ class CashRegister
   end
     
   def apply_discount
-    @total*discount.to_f
+    if discount !=0
+      
   end
   
   def items
