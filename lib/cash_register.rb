@@ -22,7 +22,7 @@ class CashRegister
     
   def apply_discount
     if discount !=0
-      ((100.00 - discount.to_f)/100)
+      ((100.00 - discount.to_f)/100).to_i
   end
   
   def items
